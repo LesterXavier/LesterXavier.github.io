@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lester's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">LMPortfolio</div>
+            <ul class="nav-links">
+                <li><a href="#" data-page="home">Home</a></li>
+                <li><a href="#" data-page="about">About</a></li>
+                <li><a href="#" data-page="projects">Projects</a></li>
+                <li><a href="#" data-page="skills">Skills</a></li>
+                <li><a href="#" data-page="experience">Experience</a></li>
+                <li><a href="#" data-page="contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- HOME PAGE -->
+    <div id="home" class="page-content active">
+        <section class="hero">
+            <div class="container">
+                <h1>Welcome to My Portfolio</h1>
+                <p>IT & Computer Programmer</p>
+                <a href="#" class="btn" data-page="projects">View My Work</a>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="grid">
+                    <div class="card">
+                        <h3>E-Commerce Platform</h3>
+                        <p>A full-stack online shopping platform with payment integration and inventory management.</p>
+                        <a href="#" class="btn" style="margin-top: 1rem;" data-page="project1">Learn More</a>
+                    </div>
+                    <div class="card">
+                        <h3>Mobile Weather App</h3>
+                        <p>Real-time weather tracking application with location-based forecasts and alerts.</p>
+                        <a href="#" class="btn" style="margin-top: 1rem;" data-page="project2">Learn More</a>
+                    </div>
+                    <div class="card">
+                        <h3>Social Media Dashboard</h3>
+                        <p>Analytics dashboard for tracking social media performance across multiple platforms.</p>
+                        <a href="#" class="btn" style="margin-top: 1rem;" data-page="project3">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- ABOUT PAGE -->
+    <div id="about" class="page-content">
+            <section class="section">
+                <div class="container">
+                    <h2 class="section-title">About Me</h2>
+                    <div style="max-width: 800px; margin: 0 auto; background: white; padding: 3rem; border-radius: 10px;">
+                        <div style="text-align: center; margin-bottom: 2rem;">
+                            <img src="images\pfp.jpg"
+                                alt="Profile Picture"
+                                style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover; border: 5px solid var(--primary); margin-bottom: 1rem;">
+                            <h3 style="font-size: 2rem; color: var(--primary); margin-bottom: 0.5rem;">Grieg Lester L. Magallones</h3>
+                            <p style="color: var(--gray); font-size: 1.1rem;">IT & Junior Developer</p>
+                        </div>
+                        <p style="font-size: 1.1rem; margin-bottom: 1rem;">
+                            Hello! My name is Lester. I'm a passionate junior developer and maybe designer with a love for creating minimalistic and functional websites. With over 3 years of experience in the industry, I've worked on projects ranging from personal experiments to small-scale school projects.
+                        <p style="font-size: 1.1rem; margin-bottom: 1rem;">
+                            My approach mixes technical expertise with creative problem-solving. I want to write code that is as concise and as understanding as possible.
+                        <p style="font-size: 1.1rem;">
+                            When I'm not coding, you can find me exploring up-and-coming new technologies, searching and contributing to open-source projects, or sharing knowledge with the community in general. Also a part-time foodie
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+    <!-- PROJECTS OVERVIEW PAGE -->
+    <div id="projects" class="page-content">
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">All Projects</h2>
+                <div class="grid">
+                    <div class="card">
+                        <h3>Simple Calculator</h3>
+                        <p>My first project ever</p>
+                        <a href="#" class="btn" style="margin-top: 1rem;" data-page="project1">View Details</a>
+                    </div>
+                    <div class="card">
+                        <h3>Mobile Weather App</h3>
+                        <p>Real-time weather tracking and forecasting</p>
+                        <a href="#" class="btn" style="margin-top: 1rem;" data-page="project2">View Details</a>
+                    </div>
+                    <div class="card">
+                        <h3>Social Media Dashboard</h3>
+                        <p>Comprehensive analytics and insights</p>
+                        <a href="#" class="btn" style="margin-top: 1rem;" data-page="project3">View Details</a>
+                    </div>
+                    <div class="card">
+                        <h3>Portfolio CMS</h3>
+                        <p>Content management system for creatives</p>
+                        <a href="#" class="btn" style="margin-top: 1rem;" data-page="project4">View Details</a>
+                    </div>
+                    <div class="card">
+                        <h3>Task Management App</h3>
+                        <p>Collaborative project management tool</p>
+                        <a href="#" class="btn" style="margin-top: 1rem;" data-page="project5">View Details</a>
+                    </div>
+                    <div class="card">
+                        <h3>Restaurant Booking System</h3>
+                        <p>Online reservation platform for restaurants</p>
+                        <a href="#" class="btn" style="margin-top: 1rem;" data-page="project6">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- PROJECT 1 DETAIL PAGE -->
+    <div id="project1" class="page-content">
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">Simple Calculuator</h2>
+                <div class="project-detail">
+                    <h3>Project Overview</h3>
+                    <p style="margin-bottom: 1.5rem;">
+                        Just a simple calculator coded in C. Holds a special place in my heart as it's one of the first things I did learning how to code.
+                    </p>
+                    <h4 style="color: var(--primary); margin-bottom: 0.5rem;">Technologies Used</h4>
+                    <p style="margin-bottom: 1.5rem;">C</p>
+                    <h4 style="color: var(--primary); margin-bottom: 0.5rem;">Key Features</h4>
+                    <ul style="margin-left: 2rem; margin-bottom: 1.5rem;">
+                        <li>Addition, Subtraction, Multiplication and Division</li>
+                        <li>Can do positive and negative numbers</li>
+                        <li>Secure payment processing</li>
+                        <li>Admin dashboard for store management</li>
+                        <li>Responsive design for all devices</li>
+                    </ul>
+                    <a href="#" class="btn" data-page="projects">Back to Projects</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- PROJECT 2 DETAIL PAGE -->
+    <div id="project2" class="page-content">
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">Mobile Weather App</h2>
+                <div class="project-detail">
+                    <div class="project-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">Project Screenshot</div>
+                    <h3>Project Overview</h3>
+                    <p style="margin-bottom: 1.5rem;">
+                        A beautiful and intuitive weather application that provides real-time weather data, forecasts, and severe weather alerts based on user location.
+                    </p>
+                    <h4 style="color: var(--primary); margin-bottom: 0.5rem;">Technologies Used</h4>
+                    <p style="margin-bottom: 1.5rem;">React Native, OpenWeatherMap API, Geolocation API, AsyncStorage</p>
+                    <h4 style="color: var(--primary); margin-bottom: 0.5rem;">Key Features</h4>
+                    <ul style="margin-left: 2rem; margin-bottom: 1.5rem;">
+                        <li>Current weather conditions</li>
+                        <li>7-day forecast</li>
+                        <li>Location-based weather tracking</li>
+                        <li>Severe weather notifications</li>
+                        <li>Multiple location support</li>
+                    </ul>
+                    <a href="#" class="btn" data-page="projects">Back to Projects</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- PROJECT 3 DETAIL PAGE -->
+    <div id="project3" class="page-content">
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">Social Media Dashboard</h2>
+                <div class="project-detail">
+                    <div class="project-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">Project Screenshot</div>
+                    <h3>Project Overview</h3>
+                    <p style="margin-bottom: 1.5rem;">
+                        An analytics dashboard that aggregates data from multiple social media platforms, providing insights into engagement, reach, and audience demographics.
+                    </p>
+                    <h4 style="color: var(--primary); margin-bottom: 0.5rem;">Technologies Used</h4>
+                    <p style="margin-bottom: 1.5rem;">Vue.js, Chart.js, Node.js, PostgreSQL, Social Media APIs</p>
+                    <h4 style="color: var(--primary); margin-bottom: 0.5rem;">Key Features</h4>
+                    <ul style="margin-left: 2rem; margin-bottom: 1.5rem;">
+                        <li>Multi-platform integration</li>
+                        <li>Real-time analytics</li>
+                        <li>Customizable reports</li>
+                        <li>Engagement tracking</li>
+                        <li>Competitor analysis</li>
+                    </ul>
+                    <a href="#" class="btn" data-page="projects">Back to Projects</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- PROJECT 4 DETAIL PAGE -->
+    <div id="project4" class="page-content">
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">Portfolio CMS</h2>
+                <div class="project-detail">
+                    <div class="project-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">Project Screenshot</div>
+                    <h3>Project Overview</h3>
+                    <p style="margin-bottom: 1.5rem;">
+                        A content management system designed specifically for creatives to showcase their work. Features drag-and-drop portfolio building and customizable themes.
+                    </p>
+                    <h4 style="color: var(--primary); margin-bottom: 0.5rem;">Technologies Used</h4>
+                    <p style="margin-bottom: 1.5rem;">Next.js, Tailwind CSS, Prisma, PostgreSQL, AWS S3</p>
+                    <h4 style="color: var(--primary); margin-bottom: 0.5rem;">Key Features</h4>
+                    <ul style="margin-left: 2rem; margin-bottom: 1.5rem;">
+                        <li>Drag-and-drop portfolio builder</li>
+                        <li>Multiple theme options</li>
+                        <li>Media library management</li>
+                        <li>SEO optimization tools</li>
+                        <li>Custom domain support</li>
+                    </ul>
+                    <a href="#" class="btn" data-page="projects">Back to Projects</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- PROJECT 5 DETAIL PAGE -->
+    <div id="project5" class="page-content">
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">Task Management App</h2>
+                <div class="project-detail">
+                    <div class="project-image" style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);">Project Screenshot</div>
+                    <h3>Project Overview</h3>
+                    <p style="margin-bottom: 1.5rem;">
+                        A collaborative project management application with real-time updates, team collaboration features, and comprehensive task tracking.
+                    </p>
+                    <h4 style="color: var(--primary); margin-bottom: 0.5rem;">Technologies Used</h4>
+                    <p style="margin-bottom: 1.5rem;">React, Firebase, Material-UI, WebSockets</p>
+                    <h4 style="color: var(--primary); margin-bottom: 0.5rem;">Key Features</h4>
+                    <ul style="margin-left: 2rem; margin-bottom: 1.5rem;">
+                        <li>Real-time collaboration</li>
+                        <li>Kanban board view</li>
+                        <li>Task dependencies</li>
+                        <li>Time tracking</li>
+                        <li>Team communication</li>
+                    </ul>
+                    <a href="#" class="btn" data-page="projects">Back to Projects</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- PROJECT 6 DETAIL PAGE -->
+    <div id="project6" class="page-content">
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">Restaurant Booking System</h2>
+                <div class="project-detail">
+                    <div class="project-image" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">Project Screenshot</div>
+                    <h3>Project Overview</h3>
+                    <p style="margin-bottom: 1.5rem;">
+                        An online reservation platform that streamlines the booking process for restaurants and provides customers with an easy way to make reservations.
+                    </p>
+                    <h4 style="color: var(--primary); margin-bottom: 0.5rem;">Technologies Used</h4>
+                    <p style="margin-bottom: 1.5rem;">Angular, Node.js, MySQL, Twilio API, Google Maps API</p>
+                    <h4 style="color: var(--primary); margin-bottom: 0.5rem;">Key Features</h4>
+                    <ul style="margin-left: 2rem; margin-bottom: 1.5rem;">
+                        <li>Table availability management</li>
+                        <li>SMS confirmation and reminders</li>
+                        <li>Guest management</li>
+                        <li>Waitlist functionality</li>
+                        <li>Location-based search</li>
+                    </ul>
+                    <a href="#" class="btn" data-page="projects">Back to Projects</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- SKILLS PAGE -->
+    <div id="skills" class="page-content">
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">Technical Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <h4>Frontend</h4>
+                        <p>HTML, CSS, JavaScript, Bootstrap</p>
+                    </div>
+                    <div class="skill-card">
+                        <h4>Backend</h4>
+                        <p>PHP, Python, React(Java)</p>
+                    </div>
+                    <div class="skill-card">
+                        <h4>Data Mining</h4>
+                        <p>Anaconda, Jupyter Notebook</p>
+                    </div>
+                    <div class="skill-card">
+                        <h4>Database</h4>
+                        <p>MySQL, MongoDB, Microsoft SQL Server</p>
+                    </div>
+                    <div class="skill-card">
+                        <h4>Design</h4>
+                        <p>Figma, Canva, Adobe AfterEffects, Photoshop</p>
+                    </div>
+                    <div class="skill-card">
+                        <h4>Tools</h4>
+                        <p>Git, VS Code, Github, Powershell, Apache</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- EXPERIENCE PAGE -->
+    <div id="experience" class="page-content">
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">Work Experience</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <h3>Junior Developer</h3>
+                        <div class="date">2022 - Present</div>
+                        <p><strong>Tech Solutions Inc.</strong></p>
+                        <p>Starting as a junior developer and architecting scalable solutions for clients.</p>
+                    </div>
+                    <div class="timeline-item">
+                        <h3>University Student</h3>
+                        <div class="date">2022 - Present</div>
+                        <p><strong>Holy Name University</strong></p>
+                        <p>Studying Information Technology to further my education in this field of computing and to learn more skills especially on the frontend and backend.</p>
+                    </div>
+                    <div class="timeline-item">
+                        <h3>CISCO Skills Learner</h3>
+                        <div class="date">2022 - Present</div>
+                        <p><strong>CISCO</strong></p>
+                        <p>Furthering my education in networking.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- CONTACT PAGE -->
+    <div id="contact" class="page-content">
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 LMPortfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Page navigation
+        const pages = document.querySelectorAll('.page-content');
+        const navLinks = document.querySelectorAll('[data-page]');
+
+        navLinks.forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                const targetPage = link.getAttribute('data-page');
+                
+                pages.forEach(page => {
+                    page.classList.remove('active');
+                });
+                
+                const target = document.getElementById(targetPage);
+                if (target) {
+                    target.classList.add('active');
+                    window.scrollTo(0, 0);
+                }
+            });
+        });
+
+        // Contact form submission
+        document.getElementById('contactForm').addEventListener('submit', (e) => {
+            e.preventDefault();
+            alert('Thank you for your message! I will get back to you soon.');
+            e.target.reset();
+        });
+
+        // Smooth scrolling for internal links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                const href = this.getAttribute('href');
+                if (href !== '#' && href.length > 1) {
+                    e.preventDefault();
+                    const target = document.querySelector(href);
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth'
+                        });
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>
